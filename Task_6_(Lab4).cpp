@@ -13,7 +13,8 @@ int main() {
             if (minused > 1000) {
                 extramin = minUsed - 1000;
                 totalbill = 500 + (extraMin * 2);
-            } else {
+            } 
+			else {
                 totalbill = 500;
             }
             break;
@@ -21,7 +22,8 @@ int main() {
             if (minused > 2000) {
                 extramin = minused - 2000;
                 totalbill = 800 + (extramin * 2);
-            } else {
+            } 
+			else {
                 totalbill = 800;
             }
             break;
