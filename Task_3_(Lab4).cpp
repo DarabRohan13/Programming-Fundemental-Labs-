@@ -9,10 +9,12 @@ int main() {
     scanf("%d",&balance);
     switch (accounttype) {
         case 1:
-            if (balance>100000)
-                interest=balance * 0.04;
-            else
+            if (balance>100000){            
+			    interest=balance * 0.04;
+			}
+			else{
                 interest= balance * 0.02;
+        	}
             break;
         case 2:
             interest=0;
